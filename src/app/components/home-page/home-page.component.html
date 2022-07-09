@@ -1,0 +1,70 @@
+<section class="info ">
+    <div class="container">
+        <div class="content">
+            <h2 class="two">Hi, I am <span>Vuong</span>,<br>
+                <span>Creative Technologist</span>
+            </h2>
+            <div class="short-desc three">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quas vitae doloribus repellendus
+                cupiditate cum voluptatibus, tenetur praesentium, perspiciatis corrupti minus autem exercitationem.
+                Neque, quod consequatur? Illo quae consequuntur cum.
+            </div>
+            <a href="../../../assets/CV.pdf" class="download" download="cv.PDF" >Download</a>
+        </div>
+        <div class="img__info one">
+            <img src="https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654876516/p5c1p4smqvtfugc9lqwz.jpg"
+                height="243px" class="" width="243px" alt="">
+        </div>
+    </div>
+</section>
+
+
+<section class="post ">
+    <div class="container">
+        <div class="row1">
+            <a href="/about"><span>Recent Blogs</span></a><a href="/about"><span class="viewall">View all</span></a>
+        </div>
+        <div class="row">
+            <div class="col" *ngFor="let blog of blogs">
+                <h2>{{blog.title}}</h2>
+                <span>date</span><span>category</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quae quod numquam voluptatem
+                    deleniti
+                    aspernatur ratione commodi quis saepe suscipit repudiandae pariatur voluptates exercitationem
+                    culpa
+                    illo esse dignissimos, soluta tempora!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="project ">
+    <div class="container">
+        <div class="row1">
+            <span>Featured Project</span>
+        </div>
+        <div class="row">
+            <ul>
+                <li *ngFor="let project of projects">
+                    <div class="pro">
+                        <div class="img__project">
+                            <a href="detailwork/{{project.id}}">
+                                <img src={{project.image}} alt="">
+                            </a>
+                        </div>
+                        <div class="content__project">
+                            <h2>{{project.name}}</h2>
+                            <span>date</span><a href="/category/{{project.id}}"><span>danh mục</span></a>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptatum rerum sed,
+                                enim
+                                nisi, fugiat sequi beatae impedit numquam sunt ut dicta inventore illum atque magnam.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,167 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "product C ",
+      "price": 400,
+      "status": false
+    },
+    {
+      "name": "Lê Văn Vương",
+      "price": 123,
+      "status": true,
+      "id": 4
+    },
+    {
+      "name": "Đỗ Thị Tuyết Mai",
+      "price": 123,
+      "status": true,
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "email": "vuongzxkk1@gmail.com",
+      "password": "$2a$10$vKuVaBsBXWmc.FoTrLdJO.TB9rz4kRAMiz91zjU2SnJzLQtZ..NUi",
+      "name": "Lê Văn Vương",
+      "id": 1
+    },
+    {
+      "email": "Vuong@gmail.com",
+      "password": "$2a$10$FcyZBHp0vVqaZ/evk7FOUuSb5gJypgwRCkw2RHflZRRDtOYcBRA1G",
+      "name": "Lê Văn Vương",
+      "id": 2
+    },
+    {
+      "email": "vuonglv@gmail.com",
+      "password": "$2a$10$wQ.MJp/7VLwm9.z4vprNE.YjKUE45UZ4c3H1XjDaNOweJD1gL/lw6",
+      "name": "vuong",
+      "id": 3
+    },
+    {
+      "email": "Vuongzxkk@gmail.com",
+      "password": "$2a$10$g2e0D4phOVjh8RTaU/wnrOktg6mMplkhnnUh0gGNx7K0CJiJcF8Z6",
+      "name": "vuong",
+      "id": 4
+    },
+    {
+      "email": "longbd@gmail",
+      "password": "$2a$10$XJ1tn15yPsTB2GlTi.iNjOJRxdlEhp5i/RFDLQH6YDPDfpNdKhuym",
+      "name": "user1",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "categoriesPostId": 2,
+      "createAt": "",
+      "desc": "rẻ đẹp thoáng mát2 ",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875765/gpbcqcqk43s5cvhx0j8w.jpg",
+      "shortDesc": "đẹp2",
+      "title": "Lê Văn Vương2"
+    },
+    {
+      "title": "Lê Văn Vương",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875769/iysh27wap9k9r4gkhane.jpg",
+      "createAt": "",
+      "categoriesPostId": 1,
+      "shortDesc": "đẹp",
+      "desc": "rẻ đẹp thoáng mát ",
+      "id": 2
+    },
+    {
+      "title": "Lê Văn Vương 1",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875760/hjnqezvszuxgjcevz9hi.jpg",
+      "createAt": "Tue Jun 14 2022 13:41:23 GMT+0700 (Giờ Đông Dương)",
+      "categoriesPostId": 1,
+      "shortDesc": "đẹp",
+      "desc": "rẻ đẹp thoáng mát ",
+      "id": 3
+    },
+    {
+      "title": "Lê Văn Vương 1",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875765/gpbcqcqk43s5cvhx0j8w.jpg",
+      "createAt": "Tue Jun 14 2022 13:41:23 GMT+0700 (Giờ Đông Dương)",
+      "categoriesPostId": 1,
+      "shortDesc": "đẹp 1",
+      "desc": "rẻ đẹp thoáng mát 1",
+      "id": 4
+    },
+    {
+      "title": "Lê Văn Vương",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875760/hjnqezvszuxgjcevz9hi.jpg",
+      "createAt": "Thu Jun 16 2022 12:56:15 GMT+0700 (Giờ Đông Dương)",
+      "categoriesPostId": 3,
+      "shortDesc": "đẹp",
+      "desc": "The Football Is Good For Training And Recreational Purposes 1",
+      "id": 5
+    },
+    {
+      "title": "Thảo quả update",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875760/hjnqezvszuxgjcevz9hi.jpg",
+      "createAt": "Thu Jun 16 2022 12:59:25 GMT+0700 (Giờ Đông Dương)",
+      "categoriesPostId": 3,
+      "shortDesc": "đẹp",
+      "desc": "The Football Is Good For Training And Recreational Purposes 1",
+      "id": 6
+    }
+  ],
+  "projects": [
+    {
+      "name": "work 1",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875760/hjnqezvszuxgjcevz9hi.jpg",
+      "createAt": "Thu Jun 16 2022 00:44:44 GMT+0700 (Giờ Đông Dương)",
+      "categoryProjectId": 2,
+      "desc": "undefined1",
+      "shortDesc": "đẹp",
+      "id": 1
+    },
+    {
+      "name": "work 2",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875765/gpbcqcqk43s5cvhx0j8w.jpg",
+      "createAt": "Thu Jun 16 2022 00:44:44 GMT+0700 (Giờ Đông Dương)",
+      "categoryProjectId": 2,
+      "desc": "undefined1",
+      "shortDesc": "đẹp",
+      "id": 2
+    },
+    {
+      "name": "work 3",
+      "image": "https://res.cloudinary.com/dkiw9eaeh/image/upload/v1654875760/hjnqezvszuxgjcevz9hi.jpg",
+      "createAt": "Thu Jun 16 2022 00:44:44 GMT+0700 (Giờ Đông Dương)",
+      "categoryProjectId": 2,
+      "desc": "undefined1",
+      "shortDesc": "đẹp",
+      "id": 3
+    }
+  ],
+  "categoriesPosts": [
+    {
+      "id": 1,
+      "name": "Danh mục  1"
+    },
+    {
+      "id": 2,
+      "name": "Danh mục  2"
+    },
+    {
+      "id": 3,
+      "name": "Danh mục  3"
+    }
+  ],
+  "categoriesProjects": [
+    {
+      "id": 1,
+      "name": "Danh mục Project 1"
+    },
+    {
+      "id": 2,
+      "name": "Danh mục Project 2"
+    },
+    {
+      "id": 3,
+      "name": "Danh mục Project 3"
+    }
+  ]
+}

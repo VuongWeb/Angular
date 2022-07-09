@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+}
+
+header>ul>li {}
+
+header>ul>li>a {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* End header======================= */
+main>.container>.title>h2 {
+    font-size: 32px;
+}
+
+.date__cate{
+    padding: 20px 0;
+}
+
+.date{
+    padding: 1px 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF7C7C;
+    border-radius: 30%;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.title>h2{
+    font-size: 34px;
+}
+
+.box>h2{
+    font-size: 30px;
+}
+
+.box>h3{
+    font-size: 24px;
+}
+
+/* end projet ===================== */
+footer>.container>.icon>ul {
+    display: flex;
+    list-style: none;
+}
+
+footer>.container>.icon {
+    padding: 10px;
+    color: #000;
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer>.container>.icon>i {
+    padding: 10px;
+    font-size: 30px;
+}

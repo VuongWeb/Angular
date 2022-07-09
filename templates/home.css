@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>ul{
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+}
+
+header>ul>li {}
+
+header>ul>li>a {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* End header======================= */
+.info>.container {
+    /* width: 80%; */
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.info>.container>.content>h2 {
+    font-size: 46px;
+}
+
+
+.info>.container>.content {
+    /* padding:20px */
+    width: auto 500px;
+}
+
+.info>.container>.img__info>img {
+    width: 200px;
+    padding-top: 20px;
+}
+
+.btn__info {
+    background-color: rgb(241, 89, 89);
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 34px;
+    margin-top: 30px;
+}
+
+/* end info ================== */
+
+
+
+.post {
+    margin-top: 60px;
+    background-color: #EDF7FA;
+    padding: 40px 0;
+}
+
+.post>.container>.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post>.container>.row1>span {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.post>.container>.row1>.viewall {
+    color: #00A8CC;
+}
+
+.post>.container>.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.post>.container>.row>.col {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.post>.container>.row>.col>h2 {
+    font-size: 32px;
+}
+
+
+/* end post ====================== */
+
+.project {
+    padding: 30px 0;
+}
+
+.project>.container>.row1>span {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.project>.container>.row>ul {
+    list-style: none;
+}
+
+.project>.container>.row>ul>li {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 246px auto;
+    grid-gap: 20px;
+}
+
+
+/* end projet ===================== */
+footer>.container>.icon>ul {
+    display: flex;
+    list-style: none;
+}
+
+footer>.container>.icon {
+    padding: 10px;
+    color: #000;
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer>.container>.icon>i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* .menu{
+    display: block;
+} */
+
+.navbar {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 35px;
+    display: none;
+
+}
+
+.navbar:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:740px) {
+    .menu {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .div {
+        display: none;
+    }
+    #header>.menu {
+        display: flex;
+    }
+    #header>.menu>li>a {
+        margin: 40px;
+    }
+
+    /*End Header ======================*/
+     .one{
+         order: -100;
+     }   
+     .two{
+         order: 1;
+     }
+     .three{
+         order: 2;
+     }
+     .four{
+         order: 3;
+     }
+    .info>.container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

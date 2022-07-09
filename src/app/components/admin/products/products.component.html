@@ -1,0 +1,36 @@
+<div class="container">
+    <h2>Products List</h2>
+    <button class="add"><a href="/admin/add">Thêm sản phẩm</a></button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of productsList ; let i = index">
+                <th scope="row">{{i+1}}</th>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.status ? "còn hàng" :"hết hàng"}}</td>
+                <td><button (click)="handleRemove(product.id)" class="delete">Delete</button></td>
+                <td>
+                    <button class="edit" routerLink="/admin/edit/{{ product.id }}">
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button class="info" routerLink="/admin/detail/{{ product.id }}">
+                        Info
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

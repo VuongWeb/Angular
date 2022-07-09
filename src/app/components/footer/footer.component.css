@@ -1,0 +1,18 @@
+footer>.container>.icon>ul {
+    display: flex;
+    list-style: none;
+}
+
+footer>.container>.icon {
+    padding: 10px;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>.container>.icon>i {
+    padding: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,22 @@
+<main>
+    <div class="container">
+        <h2>Blogs</h2>
+        <ul>
+            <li *ngFor="let post of listPost">
+                <a href='detail/{{post.id}}'>
+                    <div class="img__blog">
+                        <img src={{post.image}} alt="">
+                    </div>
+                    <div class="info__blog">
+                        <h3>{{post.title}}</h3>
+                        <div class="date__cate">
+                            <span class="date">date</span><span>category</span>
+                        </div>
+                        <p>{{post.desc}}.</p>
+                    </div>
+                </a>
+                <hr>
+            </li>
+        </ul>
+    </div>
+</main>

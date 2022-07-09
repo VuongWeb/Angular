@@ -1,0 +1,169 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info>.container {
+    /* width: 80%; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.info>.container>.content>h2 {
+    font-size: 46px;
+}
+
+
+.info>.container>.content {
+    /* padding:20px */
+    width: auto 500px;
+}
+
+.info>.container>.img__info>img {
+    /* width: 200px; */
+    padding-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.short-desc {
+    margin: 30px 0;
+}
+
+.download {
+    background-color: rgb(241, 89, 89);
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 34px;
+}
+
+/* end info ================== */
+
+
+
+.post {
+    margin-top: 60px;
+    background-color: #EDF7FA;
+    padding: 40px 0;
+}
+
+.post>.container>.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post>.container>.row1>a>span {
+    font-size: 22px;
+    color: #000;
+}
+
+.post>.container>.row1>a>.viewall {
+    color: #00A8CC;
+    font-size: 22px;
+}
+
+.post>.container>.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.post>.container>.row>.col {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.post>.container>.row>.col>h2 {
+    font-size: 32px;
+}
+
+.col>span {
+    padding-right: 15px;
+}
+
+/* end post ====================== */
+
+.project {
+    padding: 30px 0;
+}
+
+.project>.container>.row1 {
+    margin: 20px 0;
+}
+
+.project>.container>.row1>span {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.project>.container>.row>ul {
+    list-style: none;
+}
+
+.project>.container>.row>ul>li>.pro {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 246px auto;
+    grid-gap: 20px;
+}
+
+.content__project>span {
+    padding: 20px 0;
+    padding-right: 20px;
+}
+
+a{
+    color: #000;
+}
+
+@media only screen and (max-width:740px) {
+    .one {
+        order: -100;
+    }
+
+    .two {
+        order: 1;
+    }
+
+    .three {
+        order: 2;
+    }
+
+    .four {
+        order: 3;
+    }
+
+    .info>.container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* POST ============== */
+    .post>.container>.row {
+        display: block;
+    }
+
+    .post>.container>.row>.col {
+        margin: 20px 0;
+    }
+
+    .project>.container>.row>ul>li {
+        display: block;
+    }
+    .project>.container>.row>ul>li>.pro{
+        display: block;
+    }
+}

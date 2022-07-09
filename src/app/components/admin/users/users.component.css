@@ -1,0 +1,43 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 34px;
+    padding:20px;
+}
+table{
+    text-align: center;
+   
+}
+th ,td{
+    padding: 20px;
+    font-size: 20px;
+}
+button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.delete{
+    background-color: red;
+    color:#fff
+}
+.edit{
+    background-color: blue;
+    color:#fff
+}
+.info{
+    background-color: green;
+    color:#fff
+}
+.add{
+    background-color: green;
+    
+}
+.add>a{
+    color:#fff;
+    font-size: 24px;
+}

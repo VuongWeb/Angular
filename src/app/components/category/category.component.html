@@ -1,0 +1,22 @@
+<main>
+    <div class="container">
+        <h2>{{cate}}</h2>
+        <ul>
+            <li *ngFor="let work of projectOfCate">
+                <a href='detail/{{work.id}}'>
+                    <div class="img__blog">
+                        <img src={{work.image}} alt="">
+                    </div>
+                    <div class="info__blog">
+                        <h3>{{work.title}}</h3>
+                        <div class="date__cate">
+                            <span class="date">date</span><span>{{work.name}}</span>
+                        </div>
+                        <p>{{work.desc}}.</p>
+                    </div>
+                </a>
+                <hr>
+            </li>
+        </ul>
+    </div>
+</main>

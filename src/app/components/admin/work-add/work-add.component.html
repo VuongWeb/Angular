@@ -1,0 +1,16 @@
+<!-- <p>work-add works!</p> -->
+<div class="container">
+    <h2>Thêm Project</h2>
+    <form action="" (ngSubmit)="onSubmit()">
+        <input type="text" [(ngModel)]="project.name" placeholder="Tên sp" name="name" #name="ngModel" required
+            minlength="5"><br>
+        <input type="text" [(ngModel)]="project.image" placeholder="Ảnh sp" name="image" #image="ngModel" required=""><br>
+        <select name="category" [(ngModel)]="project.categoryProjectId" #categoryProjectId="ngModel" name="categoryProjectId" >
+                <option *ngFor="let cate of cates" value={{cate.id}} >{{cate.name}}</option>
+        </select><br>
+        <input type="text" placeholder="Mô tả ngắn" [(ngModel)]="project.shortDesc" #shortDesc="ngModel" name="shortDesc"><br>
+        <input type="text" placeholder="Mô tả" [(ngModel)]="project.desc" #desc="ngModel" name="desc"><br>
+        <input type="text" placeholder="Date" [(ngModel)]="createAt" #creatAt="ngModel" name="creatAt" ><br>
+        <button >Add</button>
+    </form>
+</div>

@@ -1,0 +1,36 @@
+<div class="container">
+    <h2>Post List</h2>
+    <button class="add"><a href="/admin/post/add">Thêm bài viết</a></button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let post of postsList ; let i = index">
+                <th scope="row">{{i+1}}</th>
+                <td>{{post.title}}</td>
+                <td> <img src="{{post.image}}" width="100px" alt=""></td>
+                <td>{{post.desc }}</td>
+                <td><button (click)="handleRemove(post.id)" class="delete">Delete</button></td>
+                <td>
+                    <button class="edit" routerLink="/admin/post/edit/{{ post.id }}">
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button class="info" routerLink="/admin/detail/{{ post.id }}">
+                        Info
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

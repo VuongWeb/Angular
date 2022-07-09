@@ -1,0 +1,36 @@
+
+<div class="container">
+    <h2>works List</h2>
+    <button class="add"><a href="/admin/works/add">Thêm prject</a></button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Img</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let work of workList ; let i = index">
+                <th scope="row">{{i+1}}</th>
+                <td>{{work.name}}</td>
+                <td><img src={{work.image}} width="100px" alt=""></td>
+                <td><button (click)="handleRemove(work.id)" class="delete">Delete</button></td>
+                <td>
+                    <button class="edit" routerLink="/admin/works/edit/{{ work.id }}">
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button class="info" routerLink="/admin/detail/{{ work.id }}">
+                        Info
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

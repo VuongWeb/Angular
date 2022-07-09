@@ -1,0 +1,20 @@
+<!-- {{product | json}} -->
+<div class="container">
+    <h2>Thêm sản phẩm</h2>
+    <form #formAdd="ngForm" action="" (ngSubmit)="onSubmit()">
+        <input type="text" [(ngModel)]="product.name" placeholder="Tên sp" name="name" #name="ngModel" required
+            minlength="5"><br>
+        <div class="alert" *ngIf="name.errors">
+            <div  class="message" *ngIf="name.errors?.['required'] &&( name.dirty ||name.touched)">Name is require!</div>
+        </div>
+        <div class="alert" *ngIf="name.errors">
+            <div class="message" *ngIf="name.errors?.['minlength'] &&( name.dirty ||name.touched)">Minlength is two</div>
+        </div>
+        <input type="number" [(ngModel)]="product.price" placeholder="Giá sp" name="price" #price="ngModel"
+            required=""><br>
+        <!-- <div class="alert" *ngIf="price.errors">
+            <div *ngIf="name.errors?.['required'] &&( name.dirty ||name.touched)">Price is required! </div>
+        </div> -->
+        <button [disabled]="!formAdd.valid">Add</button>
+    </form>
+</div>

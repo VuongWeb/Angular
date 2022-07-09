@@ -1,0 +1,31 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    font-size: 34px;
+}
+form{
+    padding: 20px;
+}
+
+input{
+    width: 400px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: solid 1px #888;
+}
+button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF6464;
+    color: #fff;
+    font-size:20px ;
+}
+
+button:hover{
+    background-color: #f23333;
+}

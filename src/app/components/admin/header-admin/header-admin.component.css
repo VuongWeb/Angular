@@ -1,0 +1,24 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+header{
+    padding: 10px;
+    background-color: #ccc;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{
+    padding: 20px;
+}
+
+ul>li>a{
+    font-size: 26px;
+    color:black;
+    font-weight: 600;
+}

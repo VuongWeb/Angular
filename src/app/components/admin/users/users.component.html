@@ -1,0 +1,28 @@
+<div class="container">
+    <h2>Users</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of usersList ; let i = index">
+                <th scope="row">{{i+1}}</th>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>
+                    <button class="info" routerLink="/admin/{{ user.id }}">
+                        Info
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,50 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+main {
+    
+}
+
+main>.container>ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+main>.container>ul>li>a {
+    color: #000;
+    text-decoration: none;
+    padding: 20px 0;
+    grid-template-columns: 246px auto;
+    grid-gap: 20px;
+    display: grid;
+}
+
+main>.container>ul>li>a>.info__blog>h3 {
+    margin: 0 !important;
+}
+
+main>.container>ul>li>a>.info__blog>.date__cate {
+    padding: 15px 0;
+}
+
+main>.container>ul>li>a>.info__blog>.date__cate>.date {
+    margin-right: 40px;
+    padding: 2px 8px;
+    background-color: #142850;
+    border-radius: 30%;
+    font-weight: 600;
+    color: #fff;
+    /* font-size: 30px; */
+}
+
+main>.container>h2 {
+    font-size: 32px;
+    padding: 20px 0;
+}
+@media only screen and (max-width:740px) {
+    main>.container>ul>li>a{
+        display: block;
+    }
+}

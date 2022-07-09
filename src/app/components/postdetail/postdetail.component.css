@@ -1,0 +1,43 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* End header======================= */
+main>.container>.title>h2 {
+    font-size: 32px;
+}
+
+.date__cate{
+    padding: 20px 0;
+}
+
+.date{
+    padding: 1px 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF7C7C;
+    border-radius: 30%;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.title>h2{
+    font-size: 34px;
+}
+
+.box>h2{
+    font-size: 30px;
+}
+
+.box>h3{
+    font-size: 24px;
+}
+
+.box>img{
+    padding: 20px 0;
+}
+
